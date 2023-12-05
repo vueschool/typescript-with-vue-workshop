@@ -14,14 +14,14 @@ const cons = console;
   <!-- This code below is only for the bonus -->
   <!-- Uncomment if you'd like to give it a try :)  -->
 
-  <!-- Selected: {{ selected }}
-  <SelectBox
-    labelProperty="label"
+  Selected: {{ selected }}
+  <!-- <SelectBox
+    label="label"
     v-model="selected"
     :options="[
-      { label: 'One', value: '1' },
-      { label: 'Two', value: '2' },
-      { label: 'Three', value: '3' },
+      { label: 'Option 1', value: 'option-1' },
+      { label: 'Option 2', value: 'option-2' },
+      { label: 'Option 3', value: 'option-3' },
     ]"
   /> -->
 </template>
