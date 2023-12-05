@@ -28,7 +28,7 @@ async function fetchProducts(
   afterFetched();
 }
 
-fetchProducts(5, 5, () => alert("products fetched"));
+fetchProducts(52, 0, () => alert("products fetched"));
 </script>
 <template>
   <div class="grid grid-cols-4 gap-3">
