@@ -19,7 +19,7 @@
         />
       </div>
 
-      <h1 class="text-6xl">TypeScript + Vue.js Workshop</h1>
+      <h1 class="text-6xl text-center">TypeScript + Vue.js Workshop</h1>
       <UButtonGroup class="mt-10 [&>*:nth-of-type(even)]:opacity-70">
         <UButton to="https://github.com/vueschool/typescript-with-vue-workshop">
           Exercise 1
@@ -28,6 +28,12 @@
         <UButton to="/exercise-2-end"> Exercise 2: End </UButton>
         <UButton to="/exercise-3-begin"> Exercise 3: Start </UButton>
         <UButton to="/exercise-3-end"> Exercise 3: End </UButton>
+        <UButton to="/exercise-4-begin"> Exercise 4: Start </UButton>
+        <UButton to="/exercise-4-end"> Exercise 4: End </UButton>
+        <UButton to="/exercise-5-begin"> Exercise 5: Start </UButton>
+        <UButton to="/exercise-5-end"> Exercise 5: End </UButton>
+        <UButton to="/exercise-6-begin"> Exercise 6: Start </UButton>
+        <UButton to="/exercise-6-end"> Exercise 6: End </UButton>
       </UButtonGroup>
     </div>
   </div>
